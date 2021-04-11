@@ -1,0 +1,10 @@
+{
+	"conventionalCommits.scopes": [
+		"readme",
+		"general-code",
+		"tools",
+		"ui",
+		"graphics",
+		"models"
+	]
+}
