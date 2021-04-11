@@ -2,7 +2,7 @@
 
 ![Chloride-Title](content/ui/graphics/title.png)
 
-The High Octane Hovercraft Shooter for [S&box](sandbox.facepunch.com).
+The High Octane Hovercraft Shooter for [S&box](https://sandbox.facepunch.com).
 
 - [Chloride](#chloride)
 	- [Controls](#controls)
