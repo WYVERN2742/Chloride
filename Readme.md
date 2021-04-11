@@ -1,5 +1,9 @@
 # Chloride
 
+![Chloride-Title](content/ui/graphics/title.png)
+
+The High Octane Hovercraft Shooter for [S&box](sandbox.facepunch.com).
+
 - [Chloride](#chloride)
 	- [Controls](#controls)
 	- [Make your craft yours](#make-your-craft-yours)
@@ -10,7 +14,7 @@
 
 ---
 
-A PvE/PvP fast pace hovercraft shooter heavily inspired by Sodium One: Salt Shooter
+A PvE/PvP fast pace hovercraft shooter heavily inspired by [Sodium One: Salt Shooter](https://en.wikipedia.org/wiki/Sodium_(video_game))
 
 Customise your own modular hovering weapons platform and shoot things at high
 speed in an arena, with multiple weapon types and different modules for your
