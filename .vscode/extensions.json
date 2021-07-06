@@ -1,6 +1,7 @@
 {
 	"recommendations": [
 		"vivaxy.vscode-conventional-commits",
-		"ms-dotnettools.csharp"
+		"ms-dotnettools.csharp",
+		"facepunch.sbox-vscode"
 	]
 }
