@@ -1,24 +1,19 @@
 {
-		"name": "Chloride",
-		"version": "0.1",
-		"sharedassets": "*.*",
-
-		"depends":
-		[
-			"base",
-			"citizen",
-			"rust"
-		],
-
-		//
-		// Addons can contain multiple addons, describe them here
-		//
-		"gamemodes":
-		[
-				{
-						"name": "chloride",
-						"title": "Chloride",
-						"description": "The High Octane Hovercraft Experience"
-				}
-		]
+	"name": "Chloride",
+	"version": "0.1",
+	"type": "game",
+	"ident": "wyvern.chloride",
+	"sharedassets": "*.*",
+	"depends": [
+		"base",
+		"citizen",
+		"rust"
+	],
+	"gamemodes": [
+		{
+			"name": "chloride",
+			"title": "Chloride",
+			"description": "The High Octane Hovercraft Experience"
+		}
+	]
 }

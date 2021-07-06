@@ -1,24 +1,24 @@
-
 using Sandbox;
 using Sandbox.UI;
-using Sandbox.UI.Construct;
-using System;
-using System.Threading.Tasks;
 
 namespace Chloride
 {
-	[ClassLibrary]
-	public partial class Hud : Sandbox.Hud
+	/// <summary>
+	/// Main HUD panel
+	/// </summary>
+	[Library]
+	public partial class Hud : HudEntity<RootPanel>
 	{
+		/// <summary>
+		/// Create hud Panel
+		/// </summary>
 		public Hud()
 		{
-			if ( !IsClient )
-				return;
-
-			RootPanel.StyleSheet.Load( "/ui/Hud.scss" );
-
-			RootPanel.AddChild<ChatBox>();
-			RootPanel.AddChild<Scoreboard>();
+			if ( IsClient )
+			{
+				RootPanel.SetTemplate( "/ui/Hud.scss" );
+			}
 		}
 	}
+
 }
