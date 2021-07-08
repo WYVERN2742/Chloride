@@ -1,0 +1,281 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "IKData"
+				children = 
+				[
+					{
+						_class = "IKRigSimple"
+						children = 
+						[
+							{
+								_class = "IKChainOld"
+								name = "d"
+								children = 
+								[
+									{
+										_class = "IKRuleGround"
+										trace_height = -1.0
+										trace_radius = -1.0
+										z_spring_strength = -1.0
+										normal_spring_strength = -1.0
+									},
+								]
+								end_effector_bone = "Wheel_back_end"
+								root_bone = ""
+								end_effector_target_bone = ""
+								reverse_footlock_bone = ""
+								max_lock_distance_to_target = 6.0
+								footstep_footstep_sound_type = "Left"
+								footstep_sound = ""
+								footstep_attachment = ""
+								solver = "IKSOLVER_TwoBone"
+								hyperextension_release_dot_threshold = 0.937995
+								use_target_instead_of_lock_threshold = 0.01
+								break_restoration_time = 0.15
+								soften_time = 0.5
+								soften_percentage = 0.1
+							},
+						]
+						initial_master_blend_amount = 1.0
+						abs_origin_drop_height = 24.0
+						abs_origin_drop_height_spring_strength = 500.0
+						default_tilt_spring_strength = 5.0
+						tilt_bone = ""
+						animgraph_master_blend_parameter_name = ""
+						system = "IKSYSTEMTYPE_Animgraph"
+					},
+				]
+			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "GenericGameData"
+						game_class = "prop_data"
+						game_keys = 
+						{
+							base = ""
+							allowstatic = false
+							bakelighting = false
+							spawn_motion_disabled = false
+							health = -1.0
+							min_impact_damage_speed = -1.0
+							impact_damage = -1.0
+							parent_bodygroup_name = ""
+							parent_bodygroup_value = 0
+						}
+					},
+				]
+			},
+			{
+				_class = "Skeleton"
+				children = 
+				[
+					{
+						_class = "Bone"
+						name = "Root"
+						children = 
+						[
+							{
+								_class = "Bone"
+								name = "Head"
+								children = 
+								[
+									{
+										_class = "Bone"
+										name = "Head_end"
+										origin = [ -0.0, 40.000015, 0.0 ]
+										angles = [ -0.0, -0.0, 0.0 ]
+										do_not_discard = true
+									},
+								]
+								origin = [ -0.0, 79.999969, 0.000014 ]
+								angles = [ -0.0, -0.0, 0.00001 ]
+								do_not_discard = true
+							},
+						]
+						origin = [ 0.0, 0.0, 50.0 ]
+						angles = [ -0.0, 90.0, 90.0 ]
+						do_not_discard = true
+					},
+					{
+						_class = "Bone"
+						name = "Leg_back"
+						children = 
+						[
+							{
+								_class = "Bone"
+								name = "Wheel_back"
+								children = 
+								[
+									{
+										_class = "Bone"
+										name = "Wheel_back_end"
+										origin = [ 0.0, 30.0, 0.000031 ]
+										angles = [ -0.0, 0.0, -0.000006 ]
+										do_not_discard = true
+									},
+								]
+								origin = [ 0.0, 300.665894, 0.000031 ]
+								angles = [ 0.0, 0.0, -86.185905 ]
+								do_not_discard = true
+							},
+						]
+						origin = [ 0.0, 0.0, 50.0 ]
+						angles = [ -0.0, 90.0, -3.814094 ]
+						do_not_discard = true
+					},
+					{
+						_class = "Bone"
+						name = "Leg_left"
+						children = 
+						[
+							{
+								_class = "Bone"
+								name = "Wheel_left"
+								children = 
+								[
+									{
+										_class = "Bone"
+										name = "Wheel_left_end"
+										origin = [ -0.000092, 30.283371, 0.000122 ]
+										angles = [ -0.0, 0.000009, 0.000004 ]
+										do_not_discard = true
+									},
+								]
+								origin = [ 0.000053, 309.353912, -0.000015 ]
+								angles = [ 19.349775, -25.990604, -95.31501 ]
+								do_not_discard = true
+							},
+						]
+						origin = [ -7.42582, 3.630722, 50.0 ]
+						angles = [ -11.858782, -26.426676, -3.787751 ]
+						do_not_discard = true
+					},
+					{
+						_class = "Bone"
+						name = "Leg_right"
+						children = 
+						[
+							{
+								_class = "Bone"
+								name = "Wheel_right"
+								children = 
+								[
+									{
+										_class = "Bone"
+										name = "Wheel_right_end"
+										origin = [ 0.000031, 30.016634, -0.000038 ]
+										angles = [ -0.000005, -0.000006, 0.000004 ]
+										do_not_discard = true
+									},
+								]
+								origin = [ 0.000095, 300.767365, 0.000008 ]
+								angles = [ -9.11627, -80.470955, -33.46312 ]
+								do_not_discard = true
+							},
+						]
+						origin = [ 0.0, 0.0, 50.0 ]
+						angles = [ 55.061398, -159.592087, -6.667713 ]
+						do_not_discard = true
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = [  ]
+						use_global_default = true
+						global_default_material = "materials/tarmac.vmat"
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							{
+								_class = "Folder"
+								name = "wheels"
+								children = 
+								[
+									{
+										_class = "Hitbox"
+										parent_bone = "Wheel_right_end"
+										surface_property = "concrete"
+										translation_only = false
+										group_id = 0
+										hitbox_mins = [ -126.458588, -26.384644, -115.508575 ]
+										hitbox_maxs = [ 135.458588, 35.384644, 124.508575 ]
+									},
+									{
+										_class = "Hitbox"
+										parent_bone = "Wheel_left_end"
+										surface_property = "concrete"
+										translation_only = false
+										group_id = 0
+										hitbox_mins = [ -126.458588, -26.384644, -115.508575 ]
+										hitbox_maxs = [ 135.458588, 35.384644, 124.508575 ]
+									},
+									{
+										_class = "Hitbox"
+										parent_bone = "Wheel_back_end"
+										surface_property = "concrete"
+										translation_only = false
+										group_id = 0
+										hitbox_mins = [ -126.458588, -26.384644, -115.508575 ]
+										hitbox_maxs = [ 135.458588, 35.384644, 124.508575 ]
+									},
+								]
+							},
+							{
+								_class = "Folder"
+								name = "arms"
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/craft/debug/hover-debug.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = "jointed_physics_model"
+		primary_associated_entity = "prop_ragdoll"
+		anim_graph_name = ""
+	}
+}
