@@ -12,13 +12,14 @@ namespace Chloride
 		/// </summary>
 		public override void Respawn()
 		{
-			Log.Error("[Cl] Respawn()");
-			SetModel( "models/citizen/citizen.vmdl" );
+			// Log.Error("[Cl] Respawn()");
+			SetModel( "models/craft/debug/hover_debug.vmdl");
+			// SetModel( "models/citizen/citizen.vmdl");
 
 			//
 			// Use WalkController for movement (you can make your own PlayerController for 100% control)
 			//
-			Controller = new WalkController();
+			Controller = new HovercraftController();
 
 			//
 			// Use StandardPlayerAnimator  (you can make your own PlayerAnimator for 100% control)
@@ -28,7 +29,7 @@ namespace Chloride
 			//
 			// Use ThirdPersonCamera (you can make your own Camera for 100% control)
 			//
-			Camera = new ThirdPersonCamera();
+			Camera = new HovercraftCamera();
 
 			EnableAllCollisions = true;
 			EnableDrawing = true;
