@@ -1,6 +1,6 @@
 # Chloride
 
-![Chloride-Title](content/ui/graphics/title.png)
+![Chloride-Title](ui/graphics/title.png)
 
 The High Octane Hovercraft Shooter for [S&box](https://sandbox.facepunch.com).
 
